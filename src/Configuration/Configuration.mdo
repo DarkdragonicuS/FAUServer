@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7383bd07-e567-4e61-814c-be19ad889d11">
+  <name>ПКСFAU</name>
+  <synonym>
+    <key>ru</key>
+    <value>ПКС Frontol Alco Unit</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="adba9620-7c56-4911-b9a3-0ded3c20adbb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bb3077e3-2680-49cf-a3f4-fc7c1b8fdbf1"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5f95d232-b73f-4496-97b6-6c902125a044"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="af8d5fc0-40c3-4bd6-b96d-c0d4dbf15929"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1cabdb9a-18dc-42c3-9bf9-1483a916afca"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b306a771-c0e2-41fb-9c02-d4a218a92d64"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="edeae54f-5eed-4239-86a8-8f68b849db7f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ПКСFAU_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПКСFAU_ОсновнаяРоль</defaultRoles>
+  <vendor>ООО &quot;ПК-Сервис&quot;</vendor>
+  <version>0.0.01</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Nixiris Dartero</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>sakhit.org</value>
+  </vendorInformationAddress>
+  <interfaceCompatibilityMode>Version8_2EnableTaxi</interfaceCompatibilityMode>
+  <languages uuid="e84f3f83-0e90-4a80-9274-09af8a08b857" extendedConfigurationObject="bc404e9f-e3d7-4eed-b8a8-a7c5185dd484">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПКСFAU_FrontolAlcoUnit</subsystems>
+  <roles>Role.ПКСFAU_ОсновнаяРоль</roles>
+  <httpServices>HTTPService.ПКСFAU_FrontolAlcoUnit</httpServices>
+</mdclass:Configuration>

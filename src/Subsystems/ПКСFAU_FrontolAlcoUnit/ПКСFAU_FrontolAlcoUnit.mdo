@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3630a68-93e0-47f7-a6ba-a877cb295a86">
+  <name>ПКСFAU_FrontolAlcoUnit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Frontol Alco Unit</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>HTTPService.ПКСFAU_FrontolAlcoUnit</content>
+</mdclass:Subsystem>

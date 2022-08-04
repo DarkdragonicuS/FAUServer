@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee0bd2e-4adc-40f7-aab4-bad2e5cbd785">
+  <name>ПКСFAU_FrontolAlcoUnit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Frontol Alco Unit</value>
+  </synonym>
+  <rootURL>fau</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="0afa6789-238f-4f34-8c80-cc7cdec1b223">
+    <name>API</name>
+    <synonym>
+      <key>ru</key>
+      <value>API</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="c28c3977-b37d-4dcc-9370-b8cef7fd4595">
+      <name>token</name>
+      <synonym>
+        <key>ru</key>
+        <value>Token</value>
+      </synonym>
+      <handler>APItoken</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
